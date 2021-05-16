@@ -20,11 +20,11 @@ if ('serviceWorker' in navigator) {
 var CACHE_NAME = 'my-site-cache-v1';
 var urlsToCache = [
   './',
-  'style.css',
-  'sw.js',
+  './style.css',
+  './sw.js',
   //'https://amarques-ucsd.github.io/Lab7/sw.js',
-  'settings.svg',
-  'index.html',
+  './settings.svg',
+  './index.html',
   './scripts/script.js',
   './scripts/router.js',
   './components/entry-page.js',
