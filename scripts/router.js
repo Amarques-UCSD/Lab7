@@ -39,20 +39,20 @@ router.setState = function (pageName, entry) {
    */
   switch (pageName) {
     case "settings":
-      window.location = "/Lab7/#settings"
+      window.location = "/#settings"
       document.getElementsByTagName("body")[0].className = "settings";
       document.getElementsByTagName("h1")[0].innerText = "Settings";
       router.state = "settings";
       break;
     case "homepage":
-      window.location = "/Lab7";
+      window.location = "";
       document.getElementsByTagName("body")[0].className = "";
       document.getElementsByTagName("h1")[0].innerText = "Journal Entries";
       router.state = "homepage";
       break;
     case "single-entry":
       let num = (Array.prototype.slice.call((document.getElementsByTagName("journal-entry"))).indexOf(entry) + 1);
-      window.location = "/Lab7/#entry" + num;
+      window.location = "/#entry" + num;
       document.getElementsByTagName("body")[0].className = "single-entry";
       console.log(document.getElementsByTagName("entry-page")[0]);
       document.getElementsByTagName("entry-page")[0].entry = entry.entry;
