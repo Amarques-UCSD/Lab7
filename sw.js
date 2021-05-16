@@ -7,7 +7,7 @@
 
 if ('serviceWorker' in navigator) {
     window.addEventListener('load', function() {
-      navigator.serviceWorker.register('/sw.js').then(function(registration) {
+      navigator.serviceWorker.register('/Lab7/sw.js').then(function(registration) {
         // Registration was successful
         console.log('ServiceWorker registration successful with scope: ', registration.scope);
       }, function(err) {
@@ -21,7 +21,7 @@ var CACHE_NAME = 'my-site-cache-v1';
 var urlsToCache = [
   './Lab7',
   './Lab7/style.css',
-  //'./Lab7/sw.js',
+  './Lab7/sw.js',
   './Lab7/settings.svg',
   './Lab7/index.html',
   './Lab7/scripts/script.js',
