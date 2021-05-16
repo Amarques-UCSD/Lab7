@@ -19,15 +19,15 @@ if ('serviceWorker' in navigator) {
 
 var CACHE_NAME = 'my-site-cache-v1';
 var urlsToCache = [
-  './Lab7',
-  './Lab7/style.css',
-  './Lab7/sw.js',
-  './Lab7/settings.svg',
-  './Lab7/index.html',
-  './Lab7/scripts/script.js',
-  './Lab7/scripts/router.js',
-  './Lab7/components/entry-page.js',
-  './Lab7/components/journal-entry.js',
+  './',
+  './style.css',
+  './sw.js',
+  './settings.svg',
+  './index.html',
+  './scripts/script.js',
+  './scripts/router.js',
+  './components/entry-page.js',
+  './components/journal-entry.js',
   'https://cse110lab6.herokuapp.com/entries'
 ];
 
