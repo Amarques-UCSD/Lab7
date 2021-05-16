@@ -21,8 +21,7 @@ var CACHE_NAME = 'my-site-cache-v1';
 var urlsToCache = [
   './Lab7',
   './Lab7/style.css',
-  //'./Lab7/sw.js',
-  //'https://amarques-ucsd.github.io/Lab7/sw.js',
+  './Lab7/sw.js',
   './Lab7/settings.svg',
   './Lab7/index.html',
   './Lab7/scripts/script.js',
